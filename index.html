@@ -4,38 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SDF05 Responsive Footer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    </script><script src="https://cdn.tailwindcss.com"></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
   </head>
-  <body class="bg-gray-100">
-
-    <!-- 👣 Footer Starts Here -->
-    <footer class="bg-green-200 text-black mt-12">
+  <body class="bg-gray-100 min-h-screen flex flex-col justify-between">
+    <!--  Footer Starts Here -->
+    <footer class=" bg-teal-500 teal-500 text-black mt-12">
       <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
-        
-        <!-- 📧 Newsletter Section -->
+
+        <!--  Newsletter Section -->
         <div>
-          <h2 class="text-xl font-bold mb-4">Subscribe to our newsletter</h2>
-          <form class="flex flex-col sm:flex-row gap-3" aria-label="Subscribe">
+             <h2 class="text-lg sm:text-xl font-bold mb-4 hover:text-red-500">Subscribe to our newsletter for updates</h2>
+          <form class="flex flex-col sm:flex-row gap-3 w-full" aria-label="Subscribe">
             <input
               type="email"
-              placeholder="Enter your email"
-              class="px-4 py-2 rounded border flex-1"
+              placeholder="Email Address"
+              class="px-4 py-2 rounded border flex-1 w-full"
               required
-            />
+             />
+
             <button
               type="submit"
-              class="bg-black text-white px-5 py-2 rounded font-semibold hover:bg-gray-700"
+              class="block md:flex bg-orange-600 text-white px-5 py-2 rounded font-semibold hover:bg-gray-700"
             >
               Subscribe
             </button>
           </form>
         </div>
 
-        <!-- 🔗 Quick Links -->
+        <!-- Quick Links -->
         <div>
           <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
           <ul class="space-y-2">
@@ -45,9 +46,9 @@
           </ul>
         </div>
 
-        <!-- 💻 Technologies -->
+        <!--  Technologies -->
         <div>
-          <h3 class="text-xl font-semibold mb-4">Technologies</h3>
+          <h3 class="text-xl font-semibold mb-4" hover:text-red-500 >Technologies</h3>
           <ul class="space-y-2">
             <li><a href="#" class="hover:underline">HTML</a></li>
             <li><a href="#" class="hover:underline">CSS</a></li>
@@ -56,25 +57,14 @@
         </div>
       </div>
 
-      <!-- 🔗 Social Media Links -->
-      <div class="max-w-7xl mx-auto px-6 pb-6 flex justify-center gap-6">
-        <a href="#" aria-label="Facebook" class="text-black hover:text-blue-600 text-2xl">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" aria-label="Twitter" class="text-black hover:text-blue-400 text-2xl">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" aria-label="Instagram" class="text-black hover:text-pink-500 text-2xl">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </div>
+    
+      <!--  Divider -->
+      <hr class="border-orange-400 mx-6" />
 
-      <!-- 🧱 Divider -->
-      <hr class="border-gray-400 mx-6" />
+      <!--  Bottom Footer Bar with Logo -->
+        <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row flex-wrap justify-between items-center">
 
-      <!-- 🪪 Bottom Footer Bar with Logo -->
-      <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center">
-        <!-- 👨‍🎓 Your Logo (Custom) -->
+        <!--  Your Logo (Custom) -->
         <div class="footer-logo">
           <a href="#">
             <img
@@ -84,10 +74,7 @@
             />
           </a>
         </div>
-
-        <!-- 📄 Copyright -->
-        <p class="text-sm mt-4 sm:mt-0">&copy; 2025 CodeSpace. All rights reserved.</p>
-      </div>
+    
     </footer>
 
   </body>

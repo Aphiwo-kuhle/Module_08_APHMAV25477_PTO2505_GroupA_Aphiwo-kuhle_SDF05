@@ -14,12 +14,12 @@
   <body class="bg-gray-100 min-h-screen flex flex-col justify-between">
     <!-- Footer Starts -->
     <footer class="bg-[#66988d] text-black mt-12">
-      <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         
-        <!-- Newsletter Section -->
-        <div>
+        <!-- Newsletter (Full width on md, one-third on lg) -->
+        <div class="col-span-1 md:col-span-2 lg:col-span-1">
           <h2 class="text-lg sm:text-xl font-bold mb-4 hover:text-red-500">
-            Subscribe to our newsletter for apdates.
+            Subscribe to our newsletter for updates.
           </h2>
           <form class="flex flex-col sm:flex-row gap-3 w-full" aria-label="Newsletter Signup">
             <input
@@ -37,23 +37,23 @@
           </form>
         </div>
 
-        <!-- Quick Links -->
-        <div>
-          <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
-          <ul class="space-y-2">
-            <li><a href="#" class="hover:underline">Home</a></li>
-            <li><a href="#" class="hover:underline">Who We Are</a></li>
-            <li><a href="#" class="hover:underline">Our Philosophy</a></li>
-          </ul>
-        </div>
-
-        <!-- Technologies -->
-        <div>
+        <!-- Technologies (Second row on md, left column) -->
+        <div class="col-span-1">
           <h3 class="text-xl font-semibold mb-4 hover:text-red-500">Technologies</h3>
           <ul class="space-y-2">
             <li><a href="#" class="hover:underline">HTML</a></li>
             <li><a href="#" class="hover:underline">CSS</a></li>
             <li><a href="#" class="hover:underline">JavaScript</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links (Second row on md, right column) -->
+        <div class="col-span-1">
+          <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#" class="hover:underline">Who We Are</a></li>
+            <li><a href="#" class="hover:underline">Our Philosophy</a></li>
           </ul>
         </div>
       </div>

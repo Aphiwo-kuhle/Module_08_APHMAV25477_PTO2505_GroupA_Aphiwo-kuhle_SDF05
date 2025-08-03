@@ -13,7 +13,7 @@ The goal was to create a responsive footer that:
 ## 🎨 Live Preview
 
 > _Optional: Add your GitHub Pages link here if deployed_  
-> Example: [View Live Demo](https://your-username.github.io/SDF05-footer)
+> Example: [View Live Demo](https://github.com/Aphiwo-kuhle/Module_08_APHMAV25477_PTO2505_GroupA_Aphiwo-kuhle_SDF05.git)
 
 ## 🧩 Features
 
@@ -50,7 +50,7 @@ No installation is needed. This project uses Tailwind via CDN.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Module_08_StudentNo_Classcode_Group_Name-Surname_SDF05.git
+   git clone https://github.com/Aphiwo-kuhle/Module_08_APHMAV25477_PTO2505_GroupA_Aphiwo-kuhle_SDF05.git
 
 ---
 

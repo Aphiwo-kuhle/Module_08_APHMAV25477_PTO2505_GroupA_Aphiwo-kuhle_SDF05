@@ -59,4 +59,3 @@ No installation is needed. This project uses Tailwind via CDN.
 - Be sure to **update** your GitHub repo name, username, and links in the README.
 - If you host the site with GitHub Pages, include the live demo link.
 
-Would you like me to help you **edit the file and push it to GitHub**, or do you want me to create the full `index.html + README.md` code for download?
